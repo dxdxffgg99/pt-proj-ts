@@ -1,0 +1,14 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "typetest": "tsc --noEmit",
+    "dev": "node dist/index.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
